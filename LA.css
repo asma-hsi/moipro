@@ -1,0 +1,29 @@
+body{
+height: 100vh;
+background-image: linear-gradient(orange,rgb(137, 192, 137));
+}
+#my{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.my-div{
+height: 500px;
+width: 800px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: chartreuse;
+box-shadow: 10px 6px 11px 8px rgb(36, 34, 34);
+margin-top: 100px;
+color: rgb(37, 23, 4);
+font-size: 80px;
+}
+.my-div:hover{
+background-image: linear-gradient(orange,rgb(137, 192, 137));
+box-shadow: 10px 6px 11px 8px rgb(32, 85, 45);
+transform:translateY(-36px);
+}
+    
+
+
